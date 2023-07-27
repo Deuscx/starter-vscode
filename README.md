@@ -61,7 +61,7 @@ See the [open issues](https://github.com/deuscx/pkg-name/issues) for a full list
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE]('./LICENSE') for more information.
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/deuscx/pkg-name.svg?style=for-the-badge
