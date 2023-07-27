@@ -61,7 +61,7 @@ See the [open issues](https://github.com/deuscx/pkg-name/issues) for a full list
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE`]('./LICENSE') for more information.
+Distributed under the MIT License. See [LICENSE]('./LICENSE') for more information.
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/deuscx/pkg-name.svg?style=for-the-badge
@@ -74,5 +74,5 @@ Distributed under the MIT License. See [`LICENSE`]('./LICENSE') for more informa
 [issues-url]: https://github.com/deuscx/pkg-name/issues
 [license-shield]: https://img.shields.io/github/license/deuscx/pkg-name?style=for-the-badge
 [license-url]: https://github.com/deuscx/pkg-name/blob/master/LICENSE
-[vscode-marketplace-shield]: https://img.shields.io/visual-studio-marketplace/v/deuscx.pkg-name.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code
+[vscode-marketplace-shield]: https://img.shields.io/visual-studio-marketplace/v/deuscx.pkg-name.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code&style=for-the-badge
 [vscode-marketplace-url]: https://marketplace.visualstudio.com/items?itemName=deuscx.pkg-name
