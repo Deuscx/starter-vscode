@@ -56,10 +56,20 @@
     "@vscode/vsce": "^2.20.0",
     "bumpp": "^9.1.1",
     "eslint": "^8.45.0",
+    "lint-staged": "^13.2.3",
     "rimraf": "^5.0.1",
+    "simple-git-hooks": "^2.9.0",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6",
     "vite": "^4.4.7",
     "vitest": "^0.33.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md}": [
+      "eslint --fix"
+    ]
   }
 }
