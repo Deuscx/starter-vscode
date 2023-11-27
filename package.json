@@ -4,7 +4,7 @@
   "displayName": "pkg-name",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.6.10",
+  "packageManager": "pnpm@8.10.5",
   "description": "",
   "license": "MIT",
   "funding": "https://github.com/sponsors/deuscx",
@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/deuscx/pkg-name/issues"
   },
+  "sponsor": {
+    "url": "https://github.com/sponsors/deuscx"
+  },
   "categories": [
     "Other"
   ],
@@ -25,7 +28,7 @@
     "dist"
   ],
   "engines": {
-    "vscode": "^1.78.1"
+    "vscode": "^1.83.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -50,19 +53,19 @@
     "release": "bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
-    "@types/node": "^20.4.5",
-    "@types/vscode": "^1.80.0",
-    "@vscode/vsce": "^2.20.0",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.45.0",
-    "lint-staged": "^13.2.3",
-    "rimraf": "^5.0.1",
+    "@antfu/eslint-config": "^1.1.1",
+    "@types/node": "^20.9.0",
+    "@types/vscode": "^1.84.1",
+    "@vscode/vsce": "^2.22.0",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.53.0",
+    "esno": "^4.0.0",
+    "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.4.7",
-    "vitest": "^0.33.0"
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vitest": "^0.34.6"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
